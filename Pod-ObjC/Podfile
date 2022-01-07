@@ -2,5 +2,5 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'Example' do
-  pod 'XooReality', '~> 0.0.1'
+  pod 'XooReality', '~> 0.0.2'
 end

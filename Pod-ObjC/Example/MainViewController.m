@@ -79,20 +79,13 @@
     XooRealityViewController* xooReality = [XooRealityViewController new];
     xooReality.delegate = self;
     [xooReality setup:@{ @"token": items[indexPath.item].token }];
+    [self presentViewController:xooReality animated:true completion:nil];
 }
 
 #pragma mark - XooRealityViewControllerDelegate
 
-- (void)viewControllerSetupProgressing:(XooRealityViewController *)viewController progress:(float)progress {
-    NSLog(@"Setup progress: %f", progress);
-}
-
 - (void)viewControllerSetupFinished:(XooRealityViewController *)viewController error:(NSError *)error {
-    if (error == nil) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self presentViewController:viewController animated:true completion:nil];
-        });
-    } else {
+    if (error != nil) {
         NSLog(@"Setup error: %ld", (long)error.code);
     }
 }
