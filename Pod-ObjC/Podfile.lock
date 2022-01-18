@@ -1,16 +1,16 @@
 PODS:
-  - XooReality (0.0.2)
+  - XooReality (0.0.3)
 
 DEPENDENCIES:
-  - XooReality (~> 0.0.2)
+  - XooReality (~> 0.0.3)
 
 SPEC REPOS:
   trunk:
     - XooReality
 
 SPEC CHECKSUMS:
-  XooReality: ff84e8b8e5107027155d4f91f27901f6aa87482b
+  XooReality: 22709dfac07505d177cb539386e43db405f8ba93
 
-PODFILE CHECKSUM: 4ced0ba65638b81e33725349ea2393a1910cada7
+PODFILE CHECKSUM: 32898286f2dc392135cbe2b3ed475296a10938a8
 
 COCOAPODS: 1.10.1
