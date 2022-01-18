@@ -12,7 +12,7 @@ AR Quick Look feature requires iPadOS or iOS 12.0+.
 ### CocoaPods
 
 ```
-pod 'XooReality', '~> 0.0.2'
+pod 'XooReality', '~> 0.0.3'
 ```
 
 ### Carthage
